@@ -1,1 +1,40 @@
-./cliente/node_modules
+/client/node_modules
+
+
+
+#Back
+/spring-boot-api/src/main/resources/application.properties
+
+/spring-boot-api/HELP.md
+/spring-boot-api/target/
+/spring-boot-api/!.mvn/wrapper/maven-wrapper.jar
+/spring-boot-api/!**/src/main/**/target/
+/spring-boot-api/!**/src/test/**/target/
+
+### STS ###
+/spring-boot-api/.apt_generated
+/spring-boot-api/.classpath
+/spring-boot-api/.factorypath
+/spring-boot-api/.project
+/spring-boot-api/.settings
+/spring-boot-api/.springBeans
+/spring-boot-api/.sts4-cache
+
+### IntelliJ IDEA ###
+/spring-boot-api/.idea
+/spring-boot-api/*.iws
+/spring-boot-api/*.iml
+/spring-boot-api/*.ipr
+
+### NetBeans ###
+/spring-boot-api//nbproject/private/
+/spring-boot-api//nbbuild/
+/spring-boot-api//dist/
+/spring-boot-api//nbdist/
+/spring-boot-api//.nb-gradle/
+/spring-boot-api/build/
+/spring-boot-api/!**/src/main/**/build/
+/spring-boot-api/!**/src/test/**/build/
+
+### VS Code ###
+/spring-boot-api/.vscode/
