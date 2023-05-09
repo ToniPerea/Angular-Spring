@@ -3,6 +3,9 @@ package com.spring.backend.api.springbootapi.models.entity;
 
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -15,12 +18,17 @@ public class Cliente implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotEmpty
+    @Size(min = 4, max = 12)
     @Column(name = "nombre",nullable = false)
     private String nombre;
 
+    @NotEmpty
     @Column(name = "apellido")
     private String apellido;
 
+    @NotEmpty
+    @Email
     @Column(name = "email",nullable = false,unique = true)
     private String email;
 
